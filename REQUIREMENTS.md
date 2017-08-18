@@ -8,9 +8,9 @@
     - optional: dom, iconv, imagemagick, simplexml
 - MySQL >= 5.1.0
 - Apache or nginx
-- >32 MB RAM
-- >20 MB disk space (only for system)
-- >1 MB database space
+- at least 32 MB RAM
+- at least 20 MB disk space (only for system)
+- at least 1 MB database space
 
 ## Umgebung
 
