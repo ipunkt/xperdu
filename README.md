@@ -21,3 +21,4 @@ Changelog for xperdu - a website builder.
 
 ## 1.1.5
 - Lokalisierung dynamisch generieren (aus aktiven Craft-Einstellungen)
+- xperdu wird bei einem Editionswechsel (Personal, Client, Pro ) automatisch neu installiert
