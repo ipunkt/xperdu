@@ -28,6 +28,7 @@ Changelog for xperdu - a website builder.
 - Anpassungen an Vollflächentexte werden jetzt vernünftig gespeichert (Bildgrößen, Positionierung, usw.)
 - devMode automatisch aktivieren, wenn in xperdu-Einstellungen gesetzt
 - Refactoring
+- "Call To Action"-Element
 - Störer-Element
   - Störer auf jeder Seite frei wählbar
   - Verhalten festlegbar (Immer sichtbar, Nach X Sekunden sichtbar)
