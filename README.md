@@ -35,3 +35,7 @@ Changelog for xperdu - a website builder.
   - Positionierung frei wählbar (4 Bildschirmecken)
   - Größe/Höhe regulierbar
   - Diverse Inhalte über eine Matrix verwalten (Titel, Text, Formular, Call To Action)
+
+
+## 1.1.7
+- Bugfix: Dynamische Lokalisierung gibt falschen Pfad zurück
