@@ -4,7 +4,7 @@
 
 - PHP >= 5.6.0 (7.x would be better)
   - Extensions
-    - required: reflection, pcre, spl, pdo, pdo_mysql, mcrypt, gd with FreeType Support or ImageMagick), OpenSSL, mb_string, json, curl, crypt() with BLOWFISH_CRYPT
+    - required: reflection, pcre, spl, pdo, pdo_mysql, mcrypt, gd with FreeType Support or ImageMagick), OpenSSL, mbstring, json, curl, crypt() with BLOWFISH_CRYPT
     - optional: dom, iconv, imagemagick, simplexml
 - MySQL >= 5.1.0 (or MariaDB)
 - Apache or nginx
