@@ -60,3 +60,20 @@ Sonstiges:
 ## 1.1.9
 - CSS-Stylesheet aufräumen (10kB eingespart!)
 - Bilderskalierung für Slider und Bildvollfläche auf maximale Bildschirmbreite
+
+## 1.1.10
+
+Bugfixes:
+- Doppelte WYSIWIG-Felder bei 2-Reihigem Layout haben komisches padding
+- Hintergrundfarbe für Textfelder nicht weiß
+
+Features:
+- SEO-Keywords für Unterseiten
+- Zwei neue Portrait-Positionen für den Header/Slider
+- Aktive Seite im Menü farblich hervorheben
+
+Sonstiges:
+- Kleiner Rand für die Slider-Bullets ergänzen
+- Pfeile für Referenz-Blöcke ergänzen
+- Update für interne Rancherize-Struktur
+- Mehr CSS-Einstellungen über die Config ermöglichen
