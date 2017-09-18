@@ -39,3 +39,24 @@ Changelog for xperdu - a website builder.
 
 ## 1.1.7
 - Bugfix: Dynamische Lokalisierung gibt falschen Pfad zurück
+
+## 1.1.8
+
+Bugfixes:
+- Bilder verschwinden manchmal
+- Popover-Instanzen (Störer) werden nicht immer richtig geladen
+- Bildgröße für WYSIWYG-Editor begrenzen
+- Default CSS-Config wird nicht eingelesen
+
+Features:
+- Swiper autoplay und Paginierung
+- Button "Zur Homepage" für Fehlerseiten
+- Standardsortierung in der Navigation überarbeitet
+- Neues Element: Referenz-Grid
+
+Sonstiges:
+- Stylesheets aufgeräumt
+
+## 1.1.9
+- CSS-Stylesheet aufräumen (10kB eingespart!)
+- Bilderskalierung für Slider und Bildvollfläche auf maximale Bildschirmbreite
