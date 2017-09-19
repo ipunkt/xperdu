@@ -1,0 +1,222 @@
+/* === MAIN COLOR === */
+/* Hier sollten alle benötigten Farben für die nachfolgenden Variablen definiert werden. */
+/* Es können auch neue Variablen angelegt werden nach dem Muster @color-NAME: FARBWERT;  */
+
+@color-primary: #2caae1;
+@color-white: #FFFFFF;
+@color-white-2: #FDFDFD;
+@color-grey-light: #eaeaea;
+@color-grey: #CDCDCD;
+@color-grey-shadow: #37281d;
+@color-grey-dark: #222222;
+@color-black: #000000;
+
+
+/* === GLOBAL === */
+
+// Hauptfarbe, legt die grundsätzliche Farbgebung fest.
+@color-main: @color-primary;
+
+// Seitenhintergrund und generelle Schriftfarbe
+@color-background: @color-white-2;
+@color-font: @color-grey-dark;
+
+// Gesamtbreite des Layouts
+@max-width: 1200px;
+@max-width-text: 800px;
+
+@whitespace: 8rem;
+
+// Hauptschriftart (gilt generell für die gesamte Seite)
+@font-base: 'Univers LT W01_55 Roman', Arial;
+
+// Generelle Schriftgrößen
+@font-size-base: 18px;
+@font-size-sm: 0.875rem;
+@font-size-xs: 0.75rem;
+
+
+/* === LINK === */
+// Farbdefinition für Verlinkungen
+@color-link: @color-main;
+@color-link-hover: @color-main;
+
+
+/* === NAVIGATION === */
+
+// Eigene Farben für Verlinkungen in der Navigation (Menüeinträge)
+@color-link-navigation: @color-white;
+@color-link-navigation-hover: @color-main;
+
+// Hintergrundfarbe des Menüs
+@color-background-header: @color-grey-dark;
+
+// Höhe des Menüs
+@header-height: 100px;
+
+// Einstellungen zum Abstand, Schriftgrößen und Zeilenabstand für das Menü
+@menu-link-padding: 1rem;
+@menu-link-fontsize: 1rem;
+@menu-link-fontsize-mobile: 1rem;
+@menu-line-height: 1.1rem;
+
+/* === FOOTER === */
+// Hintergrund und Höhe des Footers
+@color-background-footer: @color-grey-dark;
+@footer-height: 40px;
+
+
+/* === BUTTON === */
+
+// Farbdefinitionen für Buttons
+@color-button: @color-grey-dark;
+@color-button-hover: lighten(@color-button, 10%);
+@color-button-text: @color-white;
+@color-button-text-hover: @color-white;
+
+// Farbdefinitionen für primary Buttons
+@color-button-primary: @color-main;
+@color-button-primary-hover: lighten(@color-main, 10%);
+@color-button-primary-text: @color-white;
+@color-button-primary-text-hover: @color-white;
+
+// Abrundungen für die Buttons
+@border-radius-button: 2px;
+@border-radius-button-hover: 10px;
+
+
+/* === HEADINGS (h1,h2,h3,...) === */
+
+// Größe der Überschriften
+@font-size-h1: 3rem;
+@font-size-h2: 2.2rem;
+@font-size-h3: 1.5rem;
+
+// Schriftart und Farbe für die Überschriften
+@font-title: 'Univers LT W01_55 Roman', Arial;
+@color-font-headline: @color-grey-dark;
+
+
+/* === CONTACT === */
+// Schriftfarbe für das "Kontakt"-Element
+@color-font-contact: @color-grey-dark;
+
+
+/* === TESTIMONIAL === */
+// Hintergrundfarbe, Schriftfarbe und Schriftgröße für die Testimonials
+@color-background-testimonial: @color-grey-dark;
+@color-font-testimonial: @color-white;
+@font-size-testimonial: 2rem;
+
+
+/* === CITE === */
+// Hintergrundfarbe, Schriftfarbe und Schriftgröße für die Zitate
+@color-background-cite: @color-grey-dark;
+@color-font-cite: @color-white;
+@font-size-cite: 3rem;
+
+
+/* === HEADER/SLIDER === */
+
+// Schriftfarbe und Schatten für den Claim im Header
+@color-claim: @color-white;
+@color-claim-shadow: 3px 3px 7px @color-grey-shadow;
+
+// Bildhöhe des Headers in der großen Variante (100vh entspricht voller Bildschirmhöhe)
+@header-image-height: 100vh;
+@header-image-height-responsive: 100vh;
+
+// Bildhöhe des Headers in der kleinen Variante
+@header-image-small-height: 600px;
+@header-image-small-height-responsive: 600px;
+
+// Schriftart und Schriftgröße für den Claim
+@font-claim: 'Univers LT W01_55 Roman', Arial;
+@font-size-claim: 4rem;
+
+// Schriftart und Schriftgröße für den Sub
+@font-sub-claim: 'Univers LT W01_55 Roman', Arial;
+@font-size-claim-subtitle: 1rem;
+
+
+/* === LOGOLIST === */
+// Hintergrundfarbe der Logoliste
+@color-background-logoliste: @color-grey;
+
+
+/* === SERVICES (Dienstleistungen) === */
+
+// Abstände der Service-Boxen
+@services-spacing: 10px;
+@services-padding: 2rem 10px;
+
+// Mindesthöhe einer Service-Box
+@services-min-height: 100px;
+
+// Rahmen einer Service-Box wenn entsprechende Option aktiv
+@services-border: 1px solid @color-main;
+
+// Farbdefinitionen für Services mit Hintergrund
+@services-background-color: @color-main;
+@services-background-color-hover: @color-grey-dark;
+@services-background-font-color: @color-white;
+@services-background-font-color-hover: @color-white;
+
+// Farbdefinitionen für Services ohne Hintergrund
+@services-font-color: @color-black;
+@services-font-color-hover: @color-black;
+
+
+/* === POPOVER (Störer) === */
+
+// Hintergrundfarbe, Padding und Schatten für den Störer
+@popover-background-color: @color-background;
+@popover-padding: 2.5rem;
+@popover-shadow: 0 0.2em 0.5em 0 rgba(0, 0, 0, 0.2);
+
+// Geschwindigkeit für das Einfahren des Störers
+@popover-transition-speed: 0.3s;
+
+// Position für den Close-Button
+@popover-close-top: 0.5rem;
+@popover-close-right: 0.75rem;
+@popover-close-size: 1rem;
+
+
+/* === SLIDER === */
+
+// Größe und Farbe der Pfeile eines Sliders
+@slider-button-border: 3px;
+@slider-button-size: 25px;
+@slider-button-color: @color-main;
+
+// Definitionen für die Paginierung (Bullets) der Slider
+@slider-pagination-color: @color-white;
+@slider-pagination-color-active: @color-main;
+@slider-pagination-border: @color-grey-shadow;
+
+/* === PAGINATION === */
+// Farbdefintionen für die Paginierung (z.B. beim Blog)
+@color-pagination-hover: @color-white;
+@color-pagination-current: @color-white;
+
+
+/* === CATEGORY === */
+// Hintergrundfarbe der Kategorien-leiste (Blog)
+@color-category-background: @color-grey-light;
+
+
+/* === SEARCH === */
+// Hinterund und Rahmen für die Suche
+@color-searchform-background: @color-grey-light;
+@color-searchresult-border: @color-grey-light;
+
+
+/* === REFERENCES === */
+// Schriftgröße und Farbe für die References-Blöcke
+@font-size-references: @font-size-h3;
+@color-references-text: @color-black;
+
+/* === TWORCOLUMNS === */
+// Abstand der Elemente zueinander innerhalb eines 2-Spaltigen Layoutblocks
+@twocolumns-gap-size: 20px;
