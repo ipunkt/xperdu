@@ -77,3 +77,8 @@ Sonstiges:
 - Pfeile für Referenz-Blöcke ergänzen
 - Update für interne Rancherize-Struktur
 - Mehr CSS-Einstellungen über die Config ermöglichen
+
+## 1.1.11
+- Update Craft auf 2.6.2990
+- Lineheight für Menü konfigurierbar
+- CSS-Config Kommentierung/Dokumentation auf Github
