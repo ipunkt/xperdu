@@ -64,7 +64,7 @@ Sonstiges:
 ## 1.1.10
 
 Bugfixes:
-- Doppelte WYSIWIG-Felder bei 2-Reihigem Layout haben komisches padding
+- Doppelte WYSIWYG-Felder bei 2-reihigem Layout haben komisches padding
 - Hintergrundfarbe für Textfelder nicht weiß
 
 Features:
