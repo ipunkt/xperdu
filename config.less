@@ -24,9 +24,10 @@
 
 // Gesamtbreite des Layouts
 @max-width: 1200px;
-@max-width-text: 800px;
+@max-width-text: @breakpoint-sm;
 
 @whitespace: 8rem;
+@default-section-margin: @whitespace;
 
 // Hauptschriftart (gilt generell für die gesamte Seite)
 @font-base: 'Univers LT W01_55 Roman', Arial;
@@ -36,6 +37,8 @@
 @font-size-sm: 0.875rem;
 @font-size-xs: 0.75rem;
 
+// Generelle Schriftdicke
+@font-weight-base: normal;
 
 /* === LINK === */
 // Farbdefinition für Verlinkungen
@@ -48,9 +51,15 @@
 // Eigene Farben für Verlinkungen in der Navigation (Menüeinträge)
 @color-link-navigation: @color-white;
 @color-link-navigation-hover: @color-main;
+@background-link-navigation-hover: fade(@color-main, 5%);
+@color-search-input: @color-white;
 
 // Hintergrundfarbe des Menüs
 @color-background-header: @color-grey-dark;
+@color-background-header-top: @color-background-header;
+
+@background-dropdown-opacity: 90%;
+@color-background-dropdown: fade(@color-background-header, @background-dropdown-opacity);
 
 // Höhe des Menüs
 @header-height: 100px;
@@ -59,25 +68,44 @@
 // Einstellungen zum Abstand, Schriftgrößen und Zeilenabstand für das Menü
 @menu-link-padding: 1rem;
 @menu-line-height: 1.1rem;
-@menu-spacer-color: @color-white;
+@menu-spacer-color: rgba(255,255,255,0.2);
 
 // Fontsize, vgl. mit Breakpoints
 @menu-link-fontsize: 1rem;
 @menu-link-fontsize-smaller: 0.85rem;
 @menu-link-fontsize-mobile: 1rem;
+@menu-link-fontsize-meta: 0.8rem;
 
 // Breakpoints
+@breakpoint-sm: 768px; // DO NOT CHANGE
 @breakpoint-navi-smaller: 1200px;
-@breakpoint-navi-mobile: 700px;
+@breakpoint-navi-mobile: 800px;
 
 /* === FOOTER === */
 // Hintergrund und Höhe des Footers
 @color-background-footer: @color-grey-dark;
 @color-link-footer: @color-grey-light;
+@color-link-footer-hover: @color-link-footer;
 @footer-height: 40px;
 @color-background-copyright: @color-grey-med-dark;
 @color-copyright: @color-grey-light;
 @fontsize-copyright: @font-size-xs;
+@footer-padding: 2rem 0 10rem;
+@footer-padding-mobile: 2rem 0 20rem;
+
+@footer-padding-megafooter-active: 2rem 0 1rem;
+@footer-padding-mobile-megafooter-active: 2rem 0 4rem;
+@fontsize-footer-megafooter-active: @font-size-sm;
+
+/* === MEGAFOOTER === */
+// paddings, margins, spacings
+@megafooter-top-padding: 2rem;
+@megafooter-block-spacing: 2rem;
+@megafooter-column-spacing: 20px;
+// font definitions
+@megafooter-block-title-size: 1.2rem;
+@megafooter-block-title-margin: 0.25rem;
+@megafooter-font-size: 0.95rem;
 
 
 /* === BUTTON === */
@@ -93,6 +121,10 @@
 @color-button-primary-hover: lighten(@color-main, 10%);
 @color-button-primary-text: @color-white;
 @color-button-primary-text-hover: @color-white;
+
+// Farbdefinition für disabled Buttons
+@color-button-disabled: @color-grey;
+@color-button-disabled-text: @color-button-text;
 
 // Abrundungen für die Buttons
 @border-radius-button: 2px;
@@ -128,6 +160,7 @@
 @color-background-cite: @color-grey-dark;
 @color-font-cite: @color-white;
 @font-size-cite: 3rem;
+@padding-cite: @whitespace*1.5;
 
 
 /* === HEADER/SLIDER === */
@@ -147,10 +180,12 @@
 // Schriftart und Schriftgröße für den Claim
 @font-claim: 'Univers LT W01_55 Roman', Arial;
 @font-size-claim: 4rem;
+@font-size-claim-mobile: @font-size-claim/2;
 
 // Schriftart und Schriftgröße für den Sub
 @font-sub-claim: 'Univers LT W01_55 Roman', Arial;
 @font-size-claim-subtitle: 1rem;
+@font-size-claim-subtitle-mobile: 0.85rem;
 
 
 /* === LOGOLIST === */
@@ -175,10 +210,14 @@
 @services-background-color-hover: @color-grey-dark;
 @services-background-font-color: @color-white;
 @services-background-font-color-hover: @color-white;
+@services-background-font-color-link: @color-white;
+@services-background-font-color-link-hover: @color-white;
 
 // Farbdefinitionen für Services ohne Hintergrund
 @services-font-color: @color-black;
 @services-font-color-hover: @color-black;
+@services-font-color-link: @color-link;
+@services-font-color-link-hover: @color-link-hover;
 
 
 /* === POPOVER (Störer) === */
@@ -243,6 +282,11 @@
 /* === TWORCOLUMNS === */
 // Abstand der Elemente zueinander innerhalb eines 2-Spaltigen Layoutblocks
 @twocolumns-gap-size: 20px;
+
+/* === LATEST BLOG === */
+@latest-blog-spacing: 40px;
+@latest-blog-title-size: 1.2rem;
+@latest-blog-meta-size: 0.8rem;
 
 
 /* === COOKIECONSENT === */
