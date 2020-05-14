@@ -1,6 +1,14 @@
 # xperdu
 Changelog for xperdu - a website builder.
 
+## 2.7.1
+Bugfix:
+- PHP7 Support für Less-Kompilierung
+
+## 2.7.0
+Features:
+- Einbindung von Avalex.de für Rechtstexte
+
 ## 2.6.1
 Features:
 - "Gruppierung" für Dienstleistungsblöcke ermöglichen
