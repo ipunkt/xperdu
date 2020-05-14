@@ -7,7 +7,7 @@ Bugfix:
 
 ## 2.7.0
 Features:
-- Einbindung von Avalex.de für Rechtstexte
+- Einbindung von [Avalex.de](https://www.avalex.de/222.html) für Rechtstexte
 
 ## 2.6.1
 Features:
