@@ -1,6 +1,16 @@
 # xperdu
 Changelog for xperdu - a website builder.
 
+## 2.7.2
+Features:
+- Geänderte [Avalex API](https://www.avalex.de/222.html) integriert
+- Neue Formularfeldkomponente für E-Mail Adressen
+- Fehlerbehandlung für Twig-Templates erweitert
+  - wenn Variablen im Template nicht ersetzt werden können wird der Seitenbetreiber per E-Mail darüber informiert
+
+Bugfix:
+- Vimeo Videos werden nicht in voller Breite/Höhe begonnen
+
 ## 2.7.1
 Bugfix:
 - PHP7 Support für Less-Kompilierung
