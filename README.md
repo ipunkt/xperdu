@@ -1,6 +1,10 @@
 # xperdu
 Changelog for xperdu - a website builder.
 
+## 2.7.3
+Features:
+- RSS Feed des Blogs kann mittels Kategorie Parameter gefiltert werden
+
 ## 2.7.2
 Features:
 - Geänderte [Avalex API](https://www.avalex.de/222.html) integriert
