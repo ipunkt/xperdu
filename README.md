@@ -1,6 +1,16 @@
 # xperdu
 Changelog for xperdu - a website builder.
 
+## 2.8.1
+Features:
+- Richtext Checkbox im Formular ergänzt
+
+## 2.8.0
+Features:
+- Eigentümer auf N3W geändert
+- Korrektur der Update-URLs diverser Plugins
+- HTML Block für Seiteninhalte ergänzt
+
 ## 2.7.3
 Features:
 - RSS Feed des Blogs kann mittels Kategorie Parameter gefiltert werden
