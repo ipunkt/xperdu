@@ -1,6 +1,10 @@
 # xperdu
 Changelog for xperdu - a website builder.
 
+## 2.8.2
+Features:
+- Autoplay Safari/iOS
+
 ## 2.8.1
 Features:
 - Richtext Checkbox im Formular ergänzt
